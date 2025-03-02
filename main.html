@@ -3,13 +3,48 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<style>
+        /* Full-page centering */
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Centered Box */
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            border: 2px solid black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Centered Text */
+        .box p {
+            color: purple;
+            font-size: 16px;
+            margin: 0;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<div class="box">
+        <p>This is center.</p>
+    </div>
+
+    
+
 
 </body>
 
